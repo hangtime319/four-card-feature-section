@@ -5,35 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    
   </style>
 </head>
 <body>
   
-  Reliable, efficient delivery
-  Powered by Technology
+  <main>
+    <h1>Reliable, efficient delivery</h1>
+    <h2>Powered by Technology</h2>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <p>Our Artificial Intelligence powered tools use millions of project data points 
+    to ensure that your project is successful</p>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+    <div class="container">
+      <div class="card sup">
+        <h3>Supervisor</h3>
+        <p>Monitors activity to identify project roadblocks</p>
+        <img src="images/icon-supervisor.svg" alt="Lupa">
+      </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+      <div class="two-cards">
+        <div class="card builder">
+          <h3>Team Builder</h3>
+          <p>Scans our talent network to create the optimal team for your project</p>
+          <img src="images/icon-team-builder.svg" alt="Home">
+        </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+        <div class="card karma">  
+          <h3>Karma</h3>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <img src="images/icon-karma.svg" alt="Lâmpada">
+        </div>
+      </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+      <div class="card calc">
+        <h3>Calculator</h3>
+        <p>Uses data from past projects to provide better delivery estimates</p>
+        <img src="images/icon-calculator.svg" alt="Lupa">
+      </div>
+    </div>
+  </main>
   
   <footer>
     <p class="attribution">
